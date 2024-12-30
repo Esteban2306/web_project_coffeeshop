@@ -144,6 +144,8 @@ body {
   padding: 30px 80px 40px;
   overflow: hidden;
   box-sizing: border-box;
+  display: flex; /* Activa Flexbox */
+  flex-direction: column; /* Alinea elementos verticalmente */
 }
 
 .recipes__header {
@@ -174,7 +176,7 @@ body {
   max-width: 438px;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   width: 480px;
   height: 273px;
@@ -187,7 +189,7 @@ body {
   list-style-type: none;
 }
 
-.recipes__iframe iframe {
+.recipes__iframe {
   border-style: none;
   border-radius: 10px;
 }
