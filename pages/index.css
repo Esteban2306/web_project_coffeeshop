@@ -185,9 +185,7 @@ body {
 
 .recipes__videos {
   display: flex;
-  width: 480px;
-  height: 273px;
-  margin: 80px 0 215px 0;
+  margin: 80px auto 215px;
 }
 
 .recipes__video-item {
@@ -219,8 +217,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 720px;
-  max-height: 860px;
-  height: 100vh;
   margin: 0;
   padding: 100px 80px 120px;
   overflow: hidden;
@@ -237,8 +233,7 @@ body {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0;
-  padding-top: 100px;
+  margin: 0 auto 80px;
   display: flex;
   align-items: center;
 }
@@ -247,8 +242,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
   max-width: 385px;
-  padding: 80px 0 120px;
 }
 
 .reservation__form-admin {
@@ -268,7 +263,7 @@ body {
   padding: 0;
 }
 
-.form__fieldset__el_container {
+.form__fieldset-el-container {
   padding: 0 0 32px;
   margin: 0;
   border: none;
@@ -291,6 +286,8 @@ body {
 
 .form__input {
   border-radius: 4px;
+  border-color: #838383;
+  border: 1px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -333,7 +330,7 @@ body {
   opacity: 0.7;
 }
 
-.form__checkbox__container {
+.form__checkbox-container {
   margin: 0;
   padding: 0;
   display: flex;
@@ -353,14 +350,14 @@ body {
   background-image: url(../images/check.svg);
 }
 
-.form__checkbox__label {
+.form__checkbox-label {
   display: block;
   margin: auto 0;
   font-size: 20px;
   line-height: 30px;
 }
 
-.form__checkbox__label-right {
+.form__checkbox-label-right {
   display: inline;
   font-size: 14px;
   padding-left: 12px;
