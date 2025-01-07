@@ -5,8 +5,6 @@
   background-size: cover;
   background-position: center;
   min-height: 720px;
-  max-height: 860px;
-  height: 100vh;
   margin: 0;
   padding: 30px 80px 215px;
   overflow: hidden;
@@ -50,7 +48,7 @@
 
 .recipes__videos {
   display: flex;
-  margin: 80px auto 100px;
+  margin: 80px auto auto;
 }
 
 .recipes__video-item {
